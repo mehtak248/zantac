@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* line 10, ../scss/_common.scss */
+body {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
+  color: #38464d;
+  font-weight: 400;
+}
+
+/* line 2, ../scss/_main.scss */
+nav.navbar {
+  padding: 20px 0;
+}
+/* line 4, ../scss/_main.scss */
+nav.navbar .navbar-brand {
+  margin: 0 auto;
+}
+@media (min-width: 992px) {
+  /* line 4, ../scss/_main.scss */
+  nav.navbar .navbar-brand {
+    margin: 0;
+  }
+}
+/* line 9, ../scss/_main.scss */
+nav.navbar .navbar-brand img {
+  max-width: 250px;
+}
+
+/* line 16, ../scss/_main.scss */
+.time-block {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #3651BF;
+}
+@media (min-width: 992px) {
+  /* line 16, ../scss/_main.scss */
+  .time-block {
+    margin: 0 0 3rem;
+  }
+}
+/* line 23, ../scss/_main.scss */
+.time-block h2 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* line 32, ../scss/_main.scss */
+ul {
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+
+/* line 37, ../scss/_main.scss */
+h1 {
+  color: #3651BF;
+}
+
+/* line 41, ../scss/_main.scss */
+h6 {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* line 46, ../scss/_main.scss */
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* line 51, ../scss/_main.scss */
+.image-block {
+  margin: 0 0 25px;
+  text-align: center;
+}
+/* line 54, ../scss/_main.scss */
+.image-block img {
+  margin: 0 auto 20px;
+}
+@media (min-width: 992px) {
+  /* line 54, ../scss/_main.scss */
+  .image-block img {
+    margin: 0;
+  }
+}
+
+/* line 62, ../scss/_main.scss */
+.form-block {
+  margin: 20px 0 0;
+}
+@media (min-width: 992px) {
+  /* line 62, ../scss/_main.scss */
+  .form-block {
+    margin: 20px 0 50px;
+  }
+}
+/* line 67, ../scss/_main.scss */
+.form-block .content-block {
+  margin: 0 0 20px;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  /* line 67, ../scss/_main.scss */
+  .form-block .content-block {
+    text-align: left;
+  }
+}
+/* line 73, ../scss/_main.scss */
+.form-block .content-block ul {
+  text-align: left;
+}
+/* line 77, ../scss/_main.scss */
+.form-block .heading-block {
+  margin: 0 0 20px;
+  text-align: center;
+}
+/* line 80, ../scss/_main.scss */
+.form-block .heading-block h1 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+}
+@media (min-width: 992px) {
+  /* line 80, ../scss/_main.scss */
+  .form-block .heading-block h1 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+/* line 89, ../scss/_main.scss */
+.form-block .heading-block h2 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 30px;
+}
+@media (min-width: 992px) {
+  /* line 89, ../scss/_main.scss */
+  .form-block .heading-block h2 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+/* line 99, ../scss/_main.scss */
+.form-block form {
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: rgba(54, 81, 191, 0.2) !important;
+}
+/* line 104, ../scss/_main.scss */
+.form-block label {
+  color: #000000;
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* line 110, ../scss/_main.scss */
+.form-block .form-group {
+  margin: 0 0 10px;
+}
+/* line 112, ../scss/_main.scss */
+.form-block .form-group .form-control {
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  background-color: #ffffff;
+}
+/* line 119, ../scss/_main.scss */
+.form-block .form-group .form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+/* line 125, ../scss/_main.scss */
+.form-block .form-group textarea.form-control {
+  resize: none;
+  min-height: 150px;
+}
+/* line 131, ../scss/_main.scss */
+.form-block .btn {
+  color: #ffffff;
+  background-color: #3651BF;
+  border: 0;
+}
+/* line 136, ../scss/_main.scss */
+.form-block .form-logo {
+  margin: 10px 0;
+}
+@media (min-width: 992px) {
+  /* line 136, ../scss/_main.scss */
+  .form-block .form-logo {
+    margin: 10px 0 20px;
+  }
+}
+/* line 141, ../scss/_main.scss */
+.form-block .form-logo ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+/* line 145, ../scss/_main.scss */
+.form-block .form-logo ul li {
+  padding: 0 0 15px;
+}
+@media (min-width: 992px) {
+  /* line 145, ../scss/_main.scss */
+  .form-block .form-logo ul li {
+    padding: 0 15px;
+  }
+}
+/* line 150, ../scss/_main.scss */
+.form-block .form-logo ul li i {
+  color: #3651BF;
+  margin: 0 5px;
+  font-size: 18px;
+}
+@media (min-width: 992px) {
+  /* line 150, ../scss/_main.scss */
+  .form-block .form-logo ul li i {
+    font-size: 24px;
+  }
+}
+/* line 158, ../scss/_main.scss */
+.form-block .form-logo ul li span {
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+}
+@media (min-width: 992px) {
+  /* line 158, ../scss/_main.scss */
+  .form-block .form-logo ul li span {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/* line 173, ../scss/_main.scss */
+footer {
+  background-color: rgba(54, 81, 191, 0.9) !important;
+  padding: 30px 0;
+  text-align: center;
+}
+/* line 177, ../scss/_main.scss */
+footer p {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* line 182, ../scss/_main.scss */
+footer ul {
+  list-style-type: none;
+}
+/* line 184, ../scss/_main.scss */
+footer ul li {
+  padding: 0 10px;
+}
+/* line 186, ../scss/_main.scss */
+footer ul li a {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: none;
+}
