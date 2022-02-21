@@ -169,6 +169,38 @@ p {
   }
 }
 
+.content-main-block {
+  padding: 20px 0;
+  @include responsive(lg) {
+    padding: 50px 0;
+  }
+  h1 {
+    font-size: 24px;
+    margin: 0 0 30px;
+    font-weight: 600;
+    text-align: center;
+    @include responsive(lg) {
+      text-align: left;
+      font-size: 34px;
+    }
+  }
+  .content-subblock {
+    .list-block {
+      margin: 0 0 20px;
+      h5 {
+        margin: 0 0 5px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 20px;
+        @include responsive(lg) {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
 
 footer {
   background-color: rgba(54,81,191,0.9) !important;
@@ -188,6 +220,9 @@ footer {
         font-size: 14px;
         line-height: 22px;
         text-decoration: none;
+        &:hover {
+          color: $white;
+        }
       }
     }
   }
